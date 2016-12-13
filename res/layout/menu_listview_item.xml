@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/rounded_corner" >
+    
+           
+    <TextView
+        android:id="@+id/foodnamelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/foodnamelabel"
+        android:textSize="25dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textColor="#8032ED" />
+
+    <TextView
+        android:id="@+id/foodie_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/foodnamelabel"
+        android:textSize="25dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textColor="#8032ED" />
+    
+  
+    <TextView
+        android:id="@+id/foodcatlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/foodnamelabel"
+        android:text="@string/foodcatlabel"
+        />
+
+    <TextView
+        android:id="@+id/foodie_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_toRightOf="@+id/foodcatlabel"
+        android:layout_below="@+id/foodie_name" />
+        
+        
+    <TextView
+        android:id="@+id/foodinflabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/foodcatlabel"
+        android:text="@string/foodinflabel" />
+
+    <TextView
+        android:id="@+id/foodie_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/foodie_category"
+        android:layout_toRightOf="@+id/foodinflabel" />
+        
+ 
+	<TextView
+        android:id="@+id/foodpricelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/foodinflabel"
+        android:text="@string/foodpricelabel" />
+
+    <TextView
+        android:id="@+id/foodie_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/foodie_info"
+        android:layout_toRightOf="@+id/foodpricelabel" />
+        
+</RelativeLayout>

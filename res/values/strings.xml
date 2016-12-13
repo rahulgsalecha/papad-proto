@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Papad</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Filter ListView Tutorial</string>
+    <string name="restonamelabel">"Name : "</string>
+<string name="restoaddrlabel">"Address : "</string>
+<string name="restocatlabel">"Category : "</string>
+<string name="restocuislabel">"Cuisines : "</string>
+<string name="restofeatlabel">"Features : "</string>
+<string name="restolocallabel">"Locality : "</string>
+<string name="restophonelabel">"Phone : "</string>
+<string name="restoratinglabel">"Rating : "</string>
+<string name="restorecolabel">"Reco : "</string>
+<string name="restoservlabel">"Services : "</string>
+
+<string name="foodcatlabel">"Category : "</string>
+<string name="foodinflabel">"What's in it : "</string>
+<string name="foodnamelabel">"Dish : "</string>
+<string name="foodpricelabel">"Price : "</string>
+</resources>

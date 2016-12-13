@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  
+<TextView
+        android:id="@+id/restonamelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/restonamelabel" />
+
+    <TextView
+        android:id="@+id/resto_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/restonamelabel" />
+        
+        
+    <TextView
+        android:id="@+id/restoaddrlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/restonamelabel"
+        android:text="@string/restoaddrlabel" />
+
+    <TextView
+        android:id="@+id/resto_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/resto_name"
+        android:layout_toRightOf="@+id/restoaddrlabel" />
+        
+        
+    <TextView
+        android:id="@+id/restocatlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/restoaddrlabel"
+        android:text="@string/restocatlabel" />
+
+    <TextView
+        android:id="@+id/resto_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+         android:layout_below="@+id/resto_address"
+        android:layout_toRightOf="@+id/restocatlabel" />
+
+	<TextView
+        android:id="@+id/restocuislabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/restocatlabel"
+        android:text="@string/restocuislabel" />
+
+    <TextView
+        android:id="@+id/resto_cuisines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/resto_category"
+        android:layout_toRightOf="@+id/restocuislabel" />
+        
+    <TextView
+        android:id="@+id/restofeatlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/restocuislabel"
+        android:text="@string/restofeatlabel" />
+
+    <TextView
+        android:id="@+id/resto_features"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/resto_cuisines"
+        android:layout_toRightOf="@+id/restofeatlabel" />
+        
+     <TextView
+        android:id="@+id/restolocallabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/restofeatlabel"
+        android:text="@string/restolocallabel" />
+
+    <TextView
+        android:id="@+id/resto_locality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/resto_features"
+        android:layout_toRightOf="@+id/restolocallabel" />
+        
+    <TextView
+        android:id="@+id/restophonelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/restolocallabel"
+        android:text="@string/restophonelabel" />
+
+    <TextView
+        android:id="@+id/resto_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/resto_locality"
+        android:layout_toRightOf="@+id/restophonelabel" />
+        
+     <TextView
+        android:id="@+id/restoratinglabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/restophonelabel"
+        android:text="@string/restoratinglabel" />
+
+    <TextView
+        android:id="@+id/resto_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/resto_phone"
+        android:layout_toRightOf="@+id/restoratinglabel" />
+        
+    <TextView
+        android:id="@+id/restorecolabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/restoratinglabel"
+        android:text="@string/restorecolabel" />
+
+    <TextView
+        android:id="@+id/resto_reco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/resto_rating"
+        android:layout_toRightOf="@+id/restorecolabel" />
+        
+	<TextView
+        android:id="@+id/restoservlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/restorecolabel"
+        android:text="@string/restoservlabel" />
+
+    <TextView
+        android:id="@+id/resto_services"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/resto_reco"
+        android:layout_toRightOf="@+id/restoservlabel" />
+ -->
+ 
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+ 
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+ 
+    <com.example.papad.SlidingTabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:background="@color/ColorPrimary"/>
+ 
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+ 
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        ></android.support.v4.view.ViewPager>
+ 
+ 
+ 
+</LinearLayout>
+
